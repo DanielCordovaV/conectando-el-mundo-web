@@ -1,0 +1,55 @@
+html,
+.App {
+  padding: 0;
+  margin: 0;
+  background-color: #79a7ba;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+div.card-item,
+div.request-form {
+  height: 200px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  flex-basis: calc(20% - 22px);
+  color: black;
+}
+
+div.request-form {
+  display: block;
+  height: 100%;
+}
+
+div.cards,
+div.requests-demo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: center;
+}
+
+input {
+  padding: 12px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+form {
+  margin: 5%;
+  width: fit-content;
+}
+
+img {
+  width: 100%; 
+  max-width: 60px; 
+  height: auto; 
+
+}
